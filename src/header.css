@@ -1,0 +1,51 @@
+/* Apply CSS styles for the header */
+header {
+  background-color: #f5ba13;
+  width: 100%;
+  height: 6rem; /* Set height to fill the full header area */
+  padding: 1.6rem 3.2rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left:0;
+  right:0;
+}
+
+/* Apply CSS styles for the logo */
+.logo {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  margin: 0;
+}
+
+/* Apply CSS styles for the navigation links */
+.nav-links {
+  display: flex;
+  font-size: 2rem;
+}
+
+/* Apply CSS styles for the navigation list items */
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply CSS styles for the navigation links and hover effect */
+.nav-list li {
+  margin-left: 2rem;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s; /* Add transition effect for smooth hover */
+}
+
+.nav-list li a:hover {
+  color: #ed930d; /* Hover color (yellow) */
+}
